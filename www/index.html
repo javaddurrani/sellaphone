@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sellaphone 2019 fullstack prototype</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Chau+Philomene+One|Kaushan+Script'>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<ul id="notice">
+</ul>
+<h1 class="logo">Sellaphone</h1>
+<main>
+  <form id="order">
+    <div class="column">
+      <h2>Välj telefon</h2>
+      <div class="picker">
+        <div class="phone">
+          <img src="https://d2wsh2n0xua73e.cloudfront.net/wp-content/uploads/2019/04/iPhone-11-Concept-9.jpg">
+          <section>
+            <h2>iPhone Z</h2>
+            <ul>
+              <li>Semitransparent telefon</li>
+              <li>5G ready</li>
+              <li>Handhållare</li>
+            </ul>
+          </section>
+          <input type="radio" name="phone" value="200" placeholder="Phone">
+        </div>
+        <div class="phone">
+          <img src="https://images.techhive.com/images/idge/imported/imageapi/2015/01/14/17/011011-iphoney5-2-100546391-gallery.idge.jpg">
+          <section>
+            <h2>iPhone G</h2>
+            <ul>
+              <li>Armbandstelefon</li>
+              <li>Projicerad skärm</li>
+              <li>Virtual touch</li>
+            </ul>
+          </section>
+          <input type="radio" name="phone" value="250" placeholder="Phone">
+        </div>
+        <div class="phone">
+          <img src="http://www.newsmobile.in/wp-content/uploads/2017/06/iPhone1.jpg">
+          <section>
+            <h2>iPhone Mini</h2>
+            <ul>
+              <li>Retrodesign</li>
+              <li>Face recognition</li>
+              <li>Handhållare</li>
+            </ul>
+          </section>
+          <input type="radio" name="phone" value="110" placeholder="Phone">
+        </div>
+        <div class="phone">
+          <img src="http://cdn.images.express.co.uk/img/dynamic/59/590x/secondary/update-samsung-gear-s3-android-wear-google-801981.jpg">
+          <section>
+            <h2>Samsung Wear</h2>
+            <ul>
+              <li>Look cool</li>
+              <li>Feel hot</li>
+              <li>Arm-processor</li>
+            </ul>
+          </section>
+          <input type="radio" name="phone" value="200" placeholder="Phone">
+        </div>
+        <div class="phone">
+          <img src="http://thefoxisblack.com/blogimages//samsung-display-centric-world.jpg">
+          <section>
+            <h2>iDrink Nokia</h2>
+            <ul>
+              <li>Smakinterface</li>
+              <li>Tungstyrd</li>
+              <li>No more cool-aid</li>
+            </ul>
+          </section>
+          <input type="radio" name="phone" value="100" placeholder="Phone">
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <h2>Välj abonnemang</h2>
+      <div class="contracts">
+        <select id="contract" name="contract" placeholder="Contract">
+          <option value="0">Välj:</option>
+          <option value="100">24 mån Guld</option>
+          <option value="150">18 mån Silver</option>
+          <option value="100">12 mån Student</option>
+          <option value="250">Ingen bindningstid</option>
+          <option value="850">Global inclusive</option>
+        </select>
+      </div>
+      <h2>Datamängd</h2>
+      <div class="datas">
+        <div class="data">
+          <input type="radio" name="data" value="50" placeholder="Data"><label>10 GB</label>
+        </div>
+        <div class="data">
+          <input type="radio" name="data" value="100" placeholder="Data"><label>25 GB</label>
+        </div>
+        <div class="data">
+          <input type="radio" name="data" value="150" placeholder="Data"><label>50 GB</label>
+        </div>
+        <div class="data">
+          <input type="radio" name="data" value="200" placeholder="Data"><label>100 GB</label>
+        </div>
+      </div>
+      <h2>Tillval</h2>
+      <div class="extras">
+        <div class="extra">
+          <label>Boomy bass box</label>
+          <input type="checkbox" name="boomy-bass-box" value="50" placeholder="Extras">
+        </div>
+        <div class="extra">
+          <label>Cloudy insurance</label>
+          <input type="checkbox" name="cloudy-insurance" value="75" placeholder="Extras">
+        </div>
+        <div class="extra">
+          <label>Recognize face</label>
+          <input type="checkbox" name="recognize-face" value="20" placeholder="Extras">
+        </div>
+        <div class="extra">
+          <label>Airy Flayphones</label>
+          <input type="checkbox" name="airy-flayphones" value="30" placeholder="Extras">
+        </div>
+      </div>
+    </div>
+    <div class="column c-3">
+      <div>
+        <h2>Ditt månadspris</h2>
+        <div class="price">
+          <div class="numbers n-100">
+            <div>0</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+          </div>
+          <div class="numbers n-10">
+            <div>0</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+          </div>
+          <div class="numbers n-1">
+            <div>0</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+          </div>
+          <div class="numbers">         <div>&nbsp;</div>
+          </div>
+          <div class="numbers">         <div>kr</div>
+          </div>
+        </div>
+      </div>
+      <div id="details">
+        <button id="open-order">Beställ</button>
+        <input type="hidden" name="price" id="price" value="0">
+        <input type="text" name="first-name" id="first-name" placeholder="Förnamn" required>
+        <input type="text" name="last-name" id="last-name" placeholder="Efternamn" required>
+        <input type="tel" name="phone-number" id="phone-number" placeholder="Telefonnr" required>
+        <input type="email" name="email" id="email" placeholder="E-postadress" required>
+        <input type="number" name="street" id="street"  placeholder="Gatuadress" required>
+        <input type="text" name="zip" id="zip"  placeholder="Postnr" required>
+        <input type="text" name="city" id="city"  placeholder="Ort" required>
+        <input type="submit" value="Skicka">
+      </div>
+    </div>
+  </form>
+</main>
+<ul id="confirm">
+</ul>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script  src="js/index.js"></script>
+
+</body>
+
+</html>

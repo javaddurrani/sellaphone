@@ -1,0 +1,237 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  font-family: 'Chau Philomene One', sans-serif;
+  color:#fff;
+  background-image:url(https://i.ytimg.com/vi/lt0WQ8JzLz4/maxresdefault.jpg);
+  background-position:0% 0%;
+  background-size: cover;
+}
+select{
+  font-family: 'Chau Philomene One', sans-serif;
+}
+
+.logo{
+  font-family: 'Kaushan Script', cursive;
+  font-size:50px;
+  margin:20px;
+  margin-bottom:20px;
+}
+
+form#order{
+  display:flex;
+  justify-content:space-around;
+  height:100vh;
+  padding:10px;
+}
+
+.column{
+  max-height:100%;
+  margin:0 10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+}
+
+.column h2{
+  margin:0;
+  margin-bottom:10px;
+  font-size:20px;
+  max-height:10%;
+}
+
+.picker{
+  width:280px;
+  height:90%;
+  overflow-x:auto;
+}
+.picker>div{
+  background-color:rgba(255,255,255,0.9);
+  color:black;
+  height:100px;
+  margin-bottom:4px;
+  padding:5px;
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  flex-direction:row;
+}
+.picker>div:hover{
+  background-color:rgba(255,255,255,1);
+}
+.picker>div>img{
+  max-width:47%;
+  max-height:100%;
+  object-fit: contain;
+}
+.picker>div>section{
+  margin-left:10px;
+  margin-top:10px;
+  width:40%;
+}
+.picker>div>section>h2{
+  padding:0;
+  margin:0;
+  font-size:14px;
+}
+.picker>div>section>ul{
+  list-style-position:outside;
+  padding-left:0;
+  margin-left:15px;
+  font-size:12px;
+}
+.picker>div>input{
+  width:13%;
+}
+
+
+.contracts{
+  margin-bottom:10px;
+  padding:10px;
+  border-radius:10px;
+  background-color:rgba(0,0,0,0.5);
+}
+
+.datas{
+  margin-bottom:10px;
+  padding:10px;
+  border-radius:10px;
+  background-color:rgba(0,0,0,0.5);
+}
+
+.data{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.data>label{
+  flex-grow:1;
+  margin-left:5px;
+}
+
+.extras{
+  padding:10px;
+  border-radius:10px;
+  background-color:rgba(0,0,0,0.5);
+}
+.extra{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.price{
+  display:flex;
+  height:30px;
+  overflow:hidden;
+  padding-left:0px;
+}
+.numbers>div{
+  border-top:1px solid #6c5c5d;
+  border-right:1px solid #6c5c5d;
+  padding:0px 0 9px;
+  line-height:34px;
+  font-size:15px;
+  background: linear-gradient(to bottom, #31221f, #030000);
+  color:#c3bcb6;
+  font-family:sans-serif;
+  text-shadow:
+    -1px -1px 0 #030000,
+    1px -1px 0 #030000,
+    -1px 1px 0 #030000,
+    1px 1px 0 #030000,
+    0 0 4px #fff;
+  letter-spacing:3px;
+  text-transform:uppercase;
+  font-family:courier;
+  font-weight:bold;
+  font-size:30px;
+  height:30px;
+}
+
+.c-3{
+  justify-content:flex-start;
+  max-width:150px;
+}
+.c-3>div{
+  background-color:rgba(0,0,0,0.7);
+  padding:10px;
+  border-radius:10px;
+  margin-bottom:10px;
+}
+.c-3>div>h2{
+  margin-top:0px;
+}
+
+div#details{
+  background-color:rgba(0,0,0,0.7);
+  padding:10px;
+  border-radius:10px;
+}
+div#details>*{
+  background-color:rgba(0,0,0,0);
+  color:white;
+  border:1px solid #666;
+  border-collapse:collapse;
+  margin-bottom:5px;
+  width:100%;
+  font-family: 'Kaushan Script', cursive;
+}
+div#details>*:focus{
+  outline:none;
+}
+div#details>input{
+ display:none;
+}
+div#details>button,
+div#details>input:last-child{
+  font-family: 'Chau Philomene One', sans-serif;
+}
+div#details>h2{
+  display:block;
+}
+
+.form-data{
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Chau Philomene One', sans-serif;
+  list-style: none;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 75%;
+  margin:10px 0;
+}
+
+#confirm{
+  position:fixed;
+  display:none;
+  top:-5vh;
+  padding:10vh 10vw;
+  left:0;
+  bottom:-5vh;
+  right:0;
+  background-image:url(https://i.ytimg.com/vi/lt0WQ8JzLz4/maxresdefault.jpg);
+  background-position:0% 0%;
+  background-size: cover;
+  font-family: 'Kaushan Script', cursive;
+  font-size:30px;
+  text-align: center;
+  list-style: none;
+  text-shadow: 1px 1px 2px black;
+}
+
+#notice{
+  background:rgba(255, 220, 0, 0.9);
+  border-bottom:1px dotted grey;
+  padding:1vw;
+  display: none;
+}
+
+#notice li{
+  margin:0;
+  text-align:center;
+  color:black;
+  font-style:italic;
+  font-size: 110%;
+}
+
